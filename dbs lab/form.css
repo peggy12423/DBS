@@ -1,0 +1,61 @@
+/* 整體樣式設定 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* 標題樣式設定 */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.form_text{
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+/* 表單樣式設定 */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 表單中元素樣式設定 */
+input[type="text"],input[type="date"],input[type="password"],input[type="checkbox"],input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+input[type="text"],input[type="password"],input[type="date"] {
+    width: 80%;
+
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #0059b3;
+}
